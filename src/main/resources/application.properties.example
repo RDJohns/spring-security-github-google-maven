@@ -1,0 +1,10 @@
+spring.application.name=spending
+# GitHub Login
+spring.security.oauth2.client.registration.github.client-id=your_client_id_github
+spring.security.oauth2.client.registration.github.client-secret=your_secret_github
+
+# Google Login
+spring.security.oauth2.client.registration.google.client-id=your_client_google
+spring.security.oauth2.client.registration.google.client-secret=your_secret_google
+
+logging.level.org.springframework.security=TRACE
